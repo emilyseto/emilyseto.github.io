@@ -1,2 +1,0 @@
-# emilyseto.github.io
-website
