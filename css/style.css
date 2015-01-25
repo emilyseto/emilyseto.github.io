@@ -113,17 +113,26 @@ body {
 
 #main-body p {
   font-family: Georgia, serif;
-  line-height: 24px;
-  margin-bottom: 7%;
-  margin-top: 7%;
+  /*line-height: 24px;*/
+  /*margin-bottom: 7%;*/
+  /*margin-top: 7%;*/
   color: #435952;
-  text-align: justify;
+  text-align: center;
   background-color: transparent;
+}
+
+#main-body h2 {
+  color: #435952;
+  font-size: 24px;
+  font-family: "Didot", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .target {
   width: 25%;
-  margin-top: 0px;
+  margin-top: 7%;
+  margin-bottom: 5%;
   color: #435952;
   margin-left: auto;
   margin-right: auto;
