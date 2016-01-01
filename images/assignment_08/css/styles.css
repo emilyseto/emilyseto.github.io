@@ -1,0 +1,48 @@
+/* Pixel Colors 
+green #008000 
+yellow #fffe2f 
+red #ff0000 
+brown #8b4513 
+pinktan #ea9783 
+tan #ffb87d 
+gray #2c2b2c 
+blue #1701ff 
+lightblue #6495ed 
+white #fefcfc */
+/*18x24 Pixels*/
+
+body, html {height:100px; margin:0; background:#008000;}
+div#container{
+	width:180px; 
+	height:240px; 
+	position:fixed; 
+	left:50%; 
+	top:50%; 
+	margin-top:-60px; 
+	margin-left:-120px; 
+	background:#ffff00;}
+
+.pixel {width:10px; height:10px; float:left;}
+.green {background:#008000;}
+.yellow{background:#fffe2f;}
+.red{background:#ff0000;}
+.brown{background:#8b4513;}
+.pinktan{background:#ea9783;}
+.tan{background:#ffb87d;}
+.gray{background:#2c2b2c;}
+.blue{background:#1701ff;}
+.lightblue{background:#6495ed;}
+.white{background:#fefcfc;}
+
+div#container.c1 {
+	margin-top:-70px;
+}
+
+.c2 {
+	z-index: 1000;
+}
+
+.c2:hover {
+	opacity: 0;
+	-moz-opacity:0;
+}
