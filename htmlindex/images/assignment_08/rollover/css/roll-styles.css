@@ -1,0 +1,21 @@
+body 
+{
+	background:#008000;
+}
+
+img {
+	height: 725px;
+	width: auto;
+}
+
+
+#down:hover {
+	opacity: 0;
+}
+
+
+.img-container{
+	width: 100px;
+	height: auto;
+	position: absolute;
+}
