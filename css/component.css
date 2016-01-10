@@ -181,6 +181,10 @@
 	margin-top: 80px;
 }
 
+.cbp-ig-grid li > a.two-line:hover .cbp-ig-title:before {
+	background: #fff;
+	margin-top: 100px;
+}
 
 @media screen and (max-width: 62.75em) {
 	.cbp-ig-grid li {
