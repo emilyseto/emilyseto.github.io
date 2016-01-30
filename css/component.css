@@ -33,7 +33,7 @@
 	float: left;
 	height: 420px;
 	text-align: center;
-	border-top: 1px solid #ddd;
+	border-top: 1px solid #000000;
 }
 
 /* we are using a combination of borders and box shadows to control the grid lines */
@@ -43,14 +43,14 @@
 
 .cbp-ig-grid li:nth-child(3n-1),
 .cbp-ig-grid li:nth-child(3n-2) {
-	box-shadow: 1px 0 0 #ddd;
+	box-shadow: 1px 0 0 #000000;
 }
 
 /* anchor style */
 .cbp-ig-grid li > a /*icons*/{
 	display: block;
 	height: 100%;
-	color: #13beb8;
+	color: #000;
 	-webkit-transition: background 0.2s;
 	-moz-transition: background 0.2s;
 	transition: background 0.2s;
@@ -115,9 +115,9 @@
 .cbp-ig-grid .cbp-ig-title:before /*lines*/{
 	content: '';
 	position: absolute;
-	background: #13beb8;
+	background: #000000;
 	width: 160px;
-	height: 6px;
+	height: 1px;
 	top: 0px;
 	left: 50%;
 	margin: -10px 0 0 -80px;
@@ -131,7 +131,7 @@
 	display: inline-block;
 	font-size: 1em;
 	letter-spacing: 1px;
-	color: #fff;
+	color: #000000;
 	-webkit-transform: translateY(10px);
 	-moz-transform: -moz-translateY(10px);
 	-ms-transform: -ms-translateY(10px);
@@ -153,9 +153,7 @@
 
 /* Hover styles */
 
-.cbp-ig-grid li > a:hover {
-	background: #13beb8;
-}
+
 
 .cbp-ig-grid li > a:hover .cbp-ig-icon {
 	-webkit-transform: translateY(10px);
@@ -166,7 +164,7 @@
 
 .cbp-ig-grid li > a:hover .cbp-ig-icon:before,
 .cbp-ig-grid li > a:hover .cbp-ig-title {
-	color: #fff;
+	color: #000000;
 }
 
 .cbp-ig-grid li > a:hover .cbp-ig-title {
@@ -177,12 +175,12 @@
 }
 
 .cbp-ig-grid li > a:hover .cbp-ig-title:before {
-	background: #fff;
+	background: #000000;
 	margin-top: 80px;
 }
 
 .cbp-ig-grid li > a.two-line:hover .cbp-ig-title:before {
-	background: #fff;
+	background: #000000;
 	margin-top: 100px;
 }
 
@@ -193,7 +191,7 @@
 
 	/* reset the grid lines */
 	.cbp-ig-grid li:nth-child(-n+3){
-		border-top: 1px solid #ddd;
+		border-top: 1px solid #000000;
 	}
 
 	.cbp-ig-grid li:nth-child(3n-1),
@@ -206,7 +204,7 @@
 	}
 
 	.cbp-ig-grid li:nth-child(2n-1) {
-		box-shadow: 1px 0 0 #ddd;
+		box-shadow: 1px 0 0 #000000;
 	}
 }
 
@@ -216,7 +214,7 @@
 	}
 
 	.cbp-ig-grid li:nth-child(-n+2){
-		border-top: 1px solid #ddd;
+		border-top: 1px solid #000000;
 	}
 
 	.cbp-ig-grid li:nth-child(2n-1) {
